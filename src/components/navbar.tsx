@@ -19,13 +19,13 @@ export function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Menu", href: "#menu" },
+    { name: "Início", href: "#home" },
+    { name: "Sobre", href: "#about" },
+    { name: "Cardápio", href: "#menu" },
     { name: "Chefs", href: "#chefs" },
-    { name: "Gallery", href: "#gallery" },
-    { name: "Testimonials", href: "#testimonials" },
-    { name: "Contact", href: "#contact" },
+    { name: "Galeria", href: "#gallery" },
+    { name: "Depoimentos", href: "#testimonials" },
+    { name: "Contato", href: "#contact" },
   ];
 
   return (
@@ -58,7 +58,7 @@ export function Navbar() {
               </Link>
             ))}
             <Button className="bg-gradient-to-r from-primary to-secondary text-white border-none hover:opacity-90 transition-opacity">
-              Reserve
+              Reservar
             </Button>
           </nav>
 
@@ -95,7 +95,7 @@ export function Navbar() {
                 </Link>
               ))}
               <Button className="bg-gradient-to-r from-primary to-secondary text-white border-none hover:opacity-90 transition-opacity w-full mt-4">
-                Reserve
+                Reservar
               </Button>
             </div>
           </motion.div>

@@ -90,7 +90,7 @@ export function About() {
                 </p>
               </div>
               <div className="border border-secondary/30 rounded-lg p-4 bg-black/50 backdrop-blur-sm">
-                <h3 className="text-secondary-foreground text-xl font-semibold mb-2">
+                <h3 className="text-primary text-xl font-semibold mb-2">
                   Sustentabilidade
                 </h3>
                 <p className="text-gray-400">
